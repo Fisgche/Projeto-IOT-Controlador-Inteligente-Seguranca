@@ -38,15 +38,15 @@ DHT dht(DHTPIN, DHTTYPE);
 #define TOPICO_SUBSCRIBE_CHUVA "TOPICO_SUBSCRIBE_VERIFICA_CHUVA"
 #define TOPICO_PUBLISH_LED         "topico_liga_desliga_led"
 #define TOPICO_SUBSCRIBE_ULTRASSONICO "TOPICO_SUBSCRIBE_ULTRASSONICO"
-#define ID_MQTT  "dc44fae4-a83f-4303-9e8c-44957228882c"     //id mqtt (para identificação de sessão)
+#define ID_MQTT  "coloque o id do mqtt"     //id mqtt (para identificação de sessão)
 //#define ID_MQTT  "mqttdash-ea4e25ea"
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 Ultrasonic ultrasonic(PORTA_TRIGGER, PORTA_ECHO);
 // declarar variável distancia do tipo inteiro sem sinal
 float distancia;
 
-const char* SSID     = "IMPLANTAR_MDS193"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "jan41514"; // Senha da rede WI-FI que deseja se conectar
+const char* SSID     = "coloque o nome do wifi"; // SSID / nome da rede WI-FI que deseja se conectar
+const char* PASSWORD = "coloque a senha do wifi"; // Senha da rede WI-FI que deseja se conectar
 
 const char* BROKER_MQTT = "test.mosquitto.org";
 int BROKER_PORT = 1883; // Porta do Broker MQTT
